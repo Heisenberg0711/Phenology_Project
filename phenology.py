@@ -62,16 +62,18 @@ index = 0
 name_index = 2000055
 All_GCVI = {}
 
-for file in os.listdir(gcvi_directory):
-    filename = os.fsdecode(file)
-    if filename.endswith(".tif"):
-        os.chdir(gcvi_directory)
-        # All_GCVI[index] = calculate_GCVI(filename)
-        # index += 1
-        print(type(filename))
-        continue
-    else:
-        print("Not a GCVI file")
+# for file in os.listdir(gcvi_directory):
+#     filename = os.fsdecode(file)
+#     if filename.endswith(".tif"):
+#         os.chdir(gcvi_directory)
+#         # All_GCVI[index] = calculate_GCVI(filename)
+#         # index += 1
+#         print(type(filename))
+#         continue
+#     else:
+#         print("Not a GCVI file")
+
+
 
 
 
